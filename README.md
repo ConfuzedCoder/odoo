@@ -1,3 +1,16 @@
+## Local Installation
+
+```
+pyenv versions
+pyenv local 3.10.10
+python -m venv venv
+source venv/bin/activate
+
+# Set python version to : python = ">=3.11, <=3.13"
+poetry update
+poetry add crewai crewai-tools
+```
+
 # Odoo
 
 [![Build Status](https://runbot.odoo.com/runbot/badge/flat/1/master.svg)](https://runbot.odoo.com/runbot)
